@@ -1,0 +1,23 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.fullscreen-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color:green ;
+}
+
+#fullscreenButton {
+    padding: 20px 40px;
+    font-size: 25px;
+    cursor: pointer;
+    color: red;
+    background-color: yellow;
+    border-radius: 5%;
+}
